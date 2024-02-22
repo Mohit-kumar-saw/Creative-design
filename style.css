@@ -454,4 +454,76 @@ footer{
 
 
 
+/* footer */
 
+
+.footer {
+  background-color: #121212;
+  color: rgb(179, 179, 179);
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  width: 100%;
+  align-items: center;
+  padding: 40px;
+  gap: 30px;
+}
+.footer .mid-footer {
+  width: 70%;
+  display: flex;
+  gap: 30px;
+}
+
+.footer .mid-footer .mid-left button {
+  margin-top: 20px;
+  height: 45px;
+}
+
+.footer .mid-footer .mid-left p {
+  font-size: 33px;
+  font-weight: 600;
+}
+
+.footer .mid-right .social {
+  display: flex;
+  align-items: center;
+}
+
+.footer .mid-right .social i a {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #fff;
+  padding: 5px;
+  border-radius: 50%;
+  display: flex;
+}
+
+.footer .mid-right .social i a:hover {
+  background-color: rgb(223, 223, 223);
+  color: rgb(32, 32, 32);
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.footer .mid-right p {
+  margin-top: 10px;
+  line-height: 20px;
+  color: rgb(177, 177, 177);
+}
+
+.footer .foot-nav a {
+  color: gray;
+  margin: 30px 0px;
+  padding: 5px;
+  font-weight: 600;
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.footer .foot-nav a:hover {
+  border-bottom: 2px solid rgb(255, 255, 255);
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.footer .foot-foot {
+  margin-top: 30px;
+  color: rgb(66, 65, 65);
+}
